@@ -1,0 +1,1 @@
+便携式控制设备，EHT中通过DeviceID寻找Socket
