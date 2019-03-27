@@ -67,7 +67,7 @@
     <CodeAnalysisRuleAssemblies />
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IncludePath>$(IncludePath)</IncludePath>
-    <TargetName>AWP</TargetName>
+    <TargetName>AWPd</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
@@ -101,7 +101,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>$(OutDir)\AWP.exe</OutputFile>
+      <OutputFile>$(OutDir)\AWPd.exe</OutputFile>
       <AdditionalLibraryDirectories>..\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5WebSocketsd.lib;Qt5Widgetsd.lib;ws2_32.lib;activemq-cpp.lib;Qt5Sqld.lib;Iphlpapi.lib;Qt5Networkd.lib;Qt5Xmld.lib;Qt5AxContainerd.lib;Qt5AxBased.lib;%(AdditionalDependencies)</AdditionalDependencies>
